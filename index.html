@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ramdomon</title>
+    <script src="./js/randomon.js"></script>
 </head>
+
 <body>
-    
+
+    <h1>Ramdomon, la maravilla de la programación</h1>
+    <h2>Por favor haga click en estos dados parsa su Randomon</h2>
+
+    <section id="boton">
+        <div class="randomon1">
+            <input id="boton1" type="button" onclick="traerPokemon('.randomon1','boton1')">
+        </div>
+
+        <div class="randomon2">
+            <input id="boton2" type="button" onclick="traerPokemon('.randomon2','boton2')">
+        </div>
+        <div class="randomon3">
+            <input id="boton3" type="button" onclick="traerPokemon('.randomon3','boton3')">
+        </div>
+        <div class="randomon4">
+            <input id="boton4" type="button" onclick="traerPokemon('.randomon4','boton4')">
+        </div>
+        <div class="randomon5">
+            <input id="boton5" type="button" onclick="traerPokemon('.randomon5','boton5')">
+        </div>
+        <div class="randomon6">
+            <input id="boton6" type="button" onclick="traerPokemon('.randomon6','boton6')">
+        </div>
+
+        <h3>Espero que hallas ganado con los 6 que yo te eligi💪💪💪</h3>
+        <button onclick="Refrescar()">REINICIAR</button>
+    </section>
 </body>
+
 </html>
