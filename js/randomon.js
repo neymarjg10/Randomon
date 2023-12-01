@@ -37,4 +37,9 @@ async function traerPokemon(texto1, texto2) {
 function Refrescar(){
   location.reload()
 }
+function SelectionbotonREINICIAR(){
+  if ( boton6, onclick) {
+    botonREINICIAR.style.display = "block" 
+  }  
+}
 

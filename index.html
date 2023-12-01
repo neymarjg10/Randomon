@@ -6,36 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramdomon</title>
     <script src="./js/randomon.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style/style.css" media="screen" />
 </head>
 
 <body>
 
-    <h1>Ramdomon, la maravilla de la programación</h1>
-    <h2>Por favor haga click en estos dados parsa su Randomon</h2>
+
+    <h1>Ramdomon</h1>
+    <h2>Por favor haga click en estos dados para su Randomon</h2>
 
     <section id="boton">
-        <div class="randomon1">
-            <input id="boton1" type="button" onclick="traerPokemon('.randomon1','boton1')">
+        <div class="boton1">
+            <input id="boton1" type="button" onclick="traerPokemon('.boton1','boton1')" value="click">
         </div>
 
-        <div class="randomon2">
-            <input id="boton2" type="button" onclick="traerPokemon('.randomon2','boton2')">
-        </div>
-        <div class="randomon3">
-            <input id="boton3" type="button" onclick="traerPokemon('.randomon3','boton3')">
-        </div>
-        <div class="randomon4">
-            <input id="boton4" type="button" onclick="traerPokemon('.randomon4','boton4')">
-        </div>
-        <div class="randomon5">
-            <input id="boton5" type="button" onclick="traerPokemon('.randomon5','boton5')">
-        </div>
-        <div class="randomon6">
-            <input id="boton6" type="button" onclick="traerPokemon('.randomon6','boton6')">
+        <div class="boton2">
+            <input id="boton2" type="button" onclick="traerPokemon('.boton2','boton2')" value="click">
         </div>
 
-        <h3>Espero que hallas ganado con los 6 que yo te eligi💪💪💪</h3>
-        <button onclick="Refrescar()">REINICIAR</button>
+        <div class="boton3">
+            <input id="boton3" type="button" onclick="traerPokemon('.boton3','boton3')" value="click">
+        </div>
+
+        <div class="boton4">
+            <input id="boton4" type="button" onclick="traerPokemon('.boton4','boton4')" value="click">
+        </div>
+
+        <div class="boton5">
+            <input id="boton5" type="button" onclick="traerPokemon('.boton5','boton5')" value="click">
+        </div>
+
+        <div class="boton6">
+            <input id="boton6" type="button" onclick="traerPokemon('.boton6','boton6')" value="click">
+        </div>
+
+
+        <div class="botonREINICIAR" style="display: none;">
+            <button id="botonREINICIAR" onclick="Refrescar()">REINICIAR</button>
+        </div>
+        
     </section>
 </body>
 

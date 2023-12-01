@@ -1,0 +1,69 @@
+body {
+    background-image: url('../assets/fondo.png');
+    font-family: "poppins", sans-serif;
+    color: purple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#boton1 {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+    
+    
+}
+
+#boton2 {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+}
+#boton3 {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+}
+
+#boton4 {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+}
+
+#boton5 {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+}
+
+#boton6 {
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    background: blue;
+    color: white;
+}
+
+#botonREINICIAR {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background-color: firebrick;
+    color: aquamarine;
+}
+
+
+
